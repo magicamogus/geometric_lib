@@ -24,8 +24,8 @@ jobs:
       shell: bash
     - name: Run tests
       run: |
-        python circle_test.py
-        python rectangle_test.py
-        python square_test.py
+        python circle_test.py |
+        python rectangle_test.py |
+        python square_test.py |
         python triangle_test.py
       shell: bash
