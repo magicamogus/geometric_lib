@@ -5,7 +5,7 @@ class Test_Square(unittest.TestCase):
     
     def test_area(self):
         self.assertEqual(area(5), 25)
-        self.assertEqual(area(0), 0)
+        self.assertEqual(area(0), 30)
         self.assertAlmostEqual(area(2.5), 6.25)
     
     def test_perimeter(self):
